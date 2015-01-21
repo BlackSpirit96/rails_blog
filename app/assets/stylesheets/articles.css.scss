@@ -1,3 +1,29 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+a {
+  background-color: Aqua;
+  color: black;
+  border-radius: 10px;
+  padding: 0 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: DodgerBlue;
+}
+
+table {
+  border: 5px dashed purple;
+  background-color: lightgrey;
+  border-collapse: collapse;
+}
+
+th {
+  border-right: 2px solid grey;
+}
+
+table td {
+  border-top: 2px solid grey;
+  border-right: 2px solid grey;
+}
